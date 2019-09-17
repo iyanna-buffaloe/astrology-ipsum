@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Astrology Ipsum | your cosmic guide to UX</title>
+	<!-- font awesome kit -->
+	<script src="https://kit.fontawesome.com/34c0a3c287.js"></script>
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- google fonts  -->
+	<link href="https://fonts.googleapis.com/css?family=Gayathri:700|Mallanna&display=swap" rel="stylesheet">
+
+	<!-- my own css -->
+	<link rel="stylesheet" type="text/css" href="css/astrologyIpsum.css">
+	
+</head>
+<body>
+	
+	<div class="jumbotron">
+		<span id = "header">
+		<h1>astrology ipsum</h1>
+		<!-- <hr> -->
+		<p id="subtitle">your cosmic guide to UX design</p>
+		</span>
+	</div>
+	<div class="container">
+		<div class="card">
+			<div class="card-body">
+				<div id="paragraphs"></div>
+				<hr id="line" class="hideMe">
+				<div id="containMe"></div>
+				<div id="questions">
+					<p>Number of paragraphs: </p>
+					<p>Typical astrology banter</p>
+					<p>Let's get spiritual</p>
+				</div>
+				<div id="inputs">
+					<form id="theform">
+						<p><input type="number" value="2" name="num_paragraphs"></p>
+
+						<p><input type="radio" name="text_type" id= "regular" checked></p>
+						<p><input type="radio" name="text_type" id = "spiritual"></p>
+						<p><button id="submit" title="submit" type="button"><i class="fas fa-mercury"></i></button></p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<footer>
+	<p>Designed by <a href="https://www.linkedin.com/in/iyanna-boatwright-buffaloe-1077b7186/" target="_blank">Iyanna Boatwright-Buffaloe</a></p>
+</footer>
+
+<!-- jQuery -->
+<script type="text/javascript" src="assets/js/lib/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
