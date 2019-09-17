@@ -1,0 +1,19 @@
+{
+  "name": "astrology-ipsum",
+  "version": "1.0.0",
+  "description": "a lorem ipsum for us astrology focused  millenials",
+  "main": "assets/js/logic.js",
+  "scripts": {
+    "test": "error"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buffaloesoulja/astrology-ipsum.git"
+  },
+  "author": "Iyanna Boatwright-Buffaloe",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/buffaloesoulja/astrology-ipsum/issues"
+  },
+  "homepage": "https://github.com/buffaloesoulja/astrology-ipsum#readme"
+}
