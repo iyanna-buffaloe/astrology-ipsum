@@ -60,7 +60,7 @@ function generate_sentence () {
 
 function generate_paragraph() {
 	var num_sentences = generate_num_sentences(); 
-	var paragraph = "<p>"; 
+	var paragraph = '<p>'; 
 
 	for (var i = 0; i < num_sentences; i++)
 	{
