@@ -45,8 +45,17 @@ input[type="number"]
     padding-left: 9px;
 }
 
-button {
+.btn-primary {
 	width: 50px;
+	border-radius: 20px;
+	border-color: #7A54BC;
+	background-color: #7A54BC;
+}
+
+.btn-primary:hover {
+	color: #7A54BC ;
+	background-color: white;
+	border-color: #7A54BC;
 }
 
 .jumbotron {
