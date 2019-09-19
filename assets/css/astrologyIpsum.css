@@ -44,9 +44,12 @@ input[type="number"]
     border: 1px solid #dbdbdb;
     padding-left: 9px;
 }
+i {
+	padding: 3px;
+}
 
 .btn-primary {
-	width: 50px;
+	/*width: 100px;*/
 	border-radius: 20px;
 	border-color: #7A54BC;
 	background-color: #7A54BC;
@@ -176,6 +179,10 @@ input[type="number"]
 		margin:auto;
 		height: 70px;
 		width: 100%;
+	}
+
+	.btn-primary {
+		font-size: 30px;
 	}
 
 	i
